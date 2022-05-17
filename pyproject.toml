@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "loggly-search"
+version = "0.1.0"
+description = "A CLI for Loggly search"
+authors = ["Andrew Rabert <ar@nullsum.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yarl = "^1.7.2"
+ConfigArgParse = "^1.5.3"
+httpx = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+loggly-search = "loggly_search.__main__:main"
