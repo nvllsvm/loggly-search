@@ -6,7 +6,7 @@ authors = ["Andrew Rabert <ar@nullsum.net>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 yarl = "^1.7.2"
 ConfigArgParse = "^1.5.3"
 httpx = "^0.22.0"
